@@ -1,0 +1,130 @@
+body {
+    font-family: "Lato", sans-serif;
+    color: #454702;
+    font-weight: 300;
+    padding-top: 70px;
+    font-size: 20px;
+}
+
+header {
+    display: block;
+    width: 100%;
+}
+
+hr {
+    size: 8px;
+    border-width: 5px;
+}
+
+footer {
+    max-width: 100%;
+}
+
+.img-responsive {
+    width: 100%;
+}
+
+.initially-transparent {
+    background: 0 0;
+    padding-top: 15px;
+    padding-bottom: 5px;
+}
+
+.list-inline-item {
+    height: 25px;
+    width: auto;
+}
+.dev-icon {
+    height: 55px;
+    font-size: 40px;
+}
+
+#contact {
+    background: 000;
+}
+
+@media (max-width: 280px) {
+    h1 {
+        font-weight: 100;
+    }
+    .title-super {
+        font-size: 16px;
+    }
+    h3 {
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 426px) {
+    header {
+        display: inline-block;
+    }
+}
+
+@media (max-width: 376px) {
+    h1 {
+        font-weight: 100;
+    }
+    .title-super {
+        font-size: 26px;
+    }
+    h3 {
+        font-size: 18px;
+    }
+    .title-logo {
+        min-width: 30px
+    }
+}
+
+@media (max-width: 469px) {
+    h1 {
+        font-weight: 100;
+    }
+}
+
+@media (min-width: 470px) {
+    .title-super {
+    font-size: 50px;
+    }
+    h1 {
+    font-weight: 100;
+    }
+}
+
+@media (min-width: 661px) {
+    .title-super {
+    font-size: 50px;
+    }
+}
+
+@media (min-width: 768px) {
+  .title-super {
+    font-size: 55px;
+    }
+}
+
+@media (min-width: 992px) {
+    header {
+        display: block;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+}
+
+.text-muted {
+    color: #bcbbbb;
+}
+
+.text-thin {
+    font-weight: 100;
+}
+
+.title-logo {
+    margin-top: 20px;
+    max-width: 270px;
+}
+
+.modal-dialog {
+    width: 1010px;
+    height: 500px;
+}
